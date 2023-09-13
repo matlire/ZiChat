@@ -51,12 +51,12 @@ ZiChat is an encrypted private anonymous chat app. It uses mode cryptographic al
 ### Instructions:
 1) Deploy server:
 
-  To deploy server you need to upload it to the host (linux recommended). Make sure python3.10 at least is installed. Then you should edit config and enter host's ip, port and imagine it's name. Then install all needed libraries: run ```pip install -r   'requirenments.txt'```. Then run ```python3 server.py *** ```, where *** is DB encryption key (32 symbols). You can also run simple website using apache.
+   To deploy server you need to upload it to the host (linux recommended). Make sure python3.10 at least is installed. Then you should edit config and enter host's ip, port and imagine it's name. Then install all needed libraries: run ```pip install -r   'requirenments.txt'```. Then run ```python3 server.py *** ```, where *** is DB encryption key (32 symbols). You can also run simple website using apache.
 
 2) Build client:
     
   **Don't forget to edit config.py!**
    - For windows:
-     To compile all scripts to .exe, you need to install nuitka and run ```nuitka client.py --standalone --onefile --follow-imports```.
+     To compile all scripts to ```.exe```, you need to install nuitka and run ```nuitka client.py --standalone --onefile --follow-imports```.
    - For linux:
        You can either use python files that are in "Client folder" or obfuscate code using pyarmor: ```pyarmor gen *.py```.
