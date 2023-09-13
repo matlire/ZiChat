@@ -1,6 +1,8 @@
 # ZiChat
 ZiChat is an encrypted private anonymous chat app.
 
+![ZiChatScreenShot](https://github.com/matlire/ZiChat/assets/137503385/194b896c-0337-4d54-b9ce-62b0c7caee93)
+
 ### About ZiChat.
 
 ZiChat is an encrypted private anonymous chat app. It uses mode cryptographic algorithms to make client's data safe.
