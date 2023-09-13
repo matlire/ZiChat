@@ -22,16 +22,27 @@ You can run "python3 db.py" to fully reset DB or recrypt it using new DB key.
 You can change such settings (values.py) as message history (default 100), blacklisted usernames, passwords, symbols, etc.
 
 Client commands:
+
 :dis                                  - disconnect from server
+
 :help                                 - help with commands
+
 :friends                              - view your friends
+
 :requests                             - view all friends requests
+
 :add      username                    - send friend request to username
+
 :remove   username                    - delete friend
+
 :accept   username                    - accept friend request from username
+
 :decline  username                    - decline friend request from username
+
 :load     username                    - load last 100 messages from chat with username
+
 :change   old_password new_password   - change password
+
 
 Instructions:
 1) Deploy server:
