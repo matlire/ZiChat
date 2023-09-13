@@ -21,7 +21,7 @@ ZiChat is an encrypted private anonymous chat app. It uses mode cryptographic al
 
 ### Server commands:
 
-You can run "python3 db.py" to fully reset DB or recrypt it using new DB key.
+You can run ```python3 db.py``` to fully reset DB or recrypt it using new DB key.
 
 You can change such settings (values.py) as message history (default 100), blacklisted usernames, passwords, symbols, etc.
 
