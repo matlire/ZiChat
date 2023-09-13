@@ -55,7 +55,7 @@ ZiChat is an encrypted private anonymous chat app. It uses mode cryptographic al
 
 2) Build client:
     
-  Don't forget to edit config.py!
+  **Don't forget to edit config.py!**
    - For windows:
      To compile all scripts to .exe, you need to install nuitka and run ```nuitka client.py --standalone --onefile --follow-imports```.
    - For linux:
