@@ -13,11 +13,13 @@ ZiChat's features:
 - and much another features
 
 Published code:
+
 1) Client-side code
 2) Server-side code
 3) Simple website for chat app
 
 Server commands:
+
 You can run "python3 db.py" to fully reset DB or recrypt it using new DB key.
 You can change such settings (values.py) as message history (default 100), blacklisted usernames, passwords, symbols, etc.
 
